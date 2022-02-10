@@ -21,7 +21,7 @@
           }
         }
       ],
-      "_postman_id": "cccfdf3e-d3a5-47a9-aab3-06aac961db8d",
+      "id": "cccfdf3e-d3a5-47a9-aab3-06aac961db8d",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -48,7 +48,34 @@
           }
         }
       ],
-      "_postman_id": "9d88e41d-7ef4-4251-b3c6-4f5d1f595618",
+      "id": "9d88e41d-7ef4-4251-b3c6-4f5d1f595618",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "https://cddirector.io/"
+      },
+      "response": []
+    },
+    {
+      "name": "GET cddirector.io -2 Copy",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "bcf366f4-6acc-4fa6-837e-2c930666e821",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "49258b08-d59c-46c7-ab7f-b1b04025bf0e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
