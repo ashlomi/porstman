@@ -203,7 +203,35 @@
 					"response": []
 				}
 			],
-			"id": "72a37202-8d79-4a53-bf07-f5ca09ef088e"
+			"id": "72a37202-8d79-4a53-bf07-f5ca09ef088e",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6ImFzaGxvbWl0ZXN0QGdtYWlsLmNvbSIsInRlbmFudElkIjoiZGQ5NTZiYjUtMWJlMC00ODU1LTg2MDYtYzUxNWM3OTI2ZTBjIiwidXNlcklkIjoxMSwianRpIjoiMTk1YTQ3YjUtYjU5NS00MWZlLWE1NzItOTg3YmFlOGQyNTM4IiwiZXhwIjoxNjM5OTAxNjA3fQ.CSOvcGfdtfoDyFYkGClkSfmQtb56AiEyszkSliWhd8V0qR6WFMz5krqrZdhoezOELs--4-BEqFq4JGyYNnjeFg"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a8741e89-3e51-445e-b007-98194ff88d07",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "419caec2-b79c-4884-95af-7f0c37b586ce",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "Security",
@@ -387,103 +415,103 @@
 	],
 	"variable": [
 		{
-			"id": "1bf73e1d-55c9-486f-8cd3-6ad3bdcdad4b",
+			"id": "6cdd3ae3-d0a4-411d-bcbf-0c4d8c5dba72",
 			"key": "serverUrl",
 			"value": "http://lvntest002908.bpc.broadcom.net:8080",
 			"type": "string"
 		},
 		{
-			"id": "bda3c11e-ec18-4543-8fb6-dcb111efbc20",
+			"id": "96687939-0dd5-4afb-97d5-7f5c48947d9b",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "21471bc6-0d41-4534-a716-56b914b73dfa",
+			"id": "ab34b4a1-3172-43fc-b98d-7bf8f70be0c1",
 			"key": "AppName1",
 			"value": "GB-MAINSRVR",
 			"type": "string"
 		},
 		{
-			"id": "19e5f086-a10b-49cf-b85f-3f4b2f0c33cf",
+			"id": "33aa8aa0-590a-4960-a22a-11a40f69ccda",
 			"key": "AppVersion1",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "22df1dbf-3868-493a-870b-9e103c38d185",
+			"id": "dce1dd51-cfc0-45c8-8191-57b0dd548f51",
 			"key": "BuildNumb1",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a02b7cd4-cf6a-4806-b8ec-e5d9e67367ef",
+			"id": "43b1ed16-d95d-455c-bc14-055cdb3a5bac",
 			"key": "AppName2",
 			"value": "GB-IAM",
 			"type": "string"
 		},
 		{
-			"id": "c899f7f2-528a-4c26-94ee-2a0da172ae8f",
+			"id": "54398be4-3faf-44f8-8f03-96c1375b42ad",
 			"key": "AppVersion2",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "f5c8bc08-c36b-4e9c-8a47-d0b7359a0cb8",
+			"id": "69a007c5-cf36-4de5-8594-58b9b2a2e06e",
 			"key": "BuildNumb2",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "0c36d3cf-4e31-4a35-ab19-e5eadea8dd86",
+			"id": "a1e97e4e-6c6d-4f90-b5cb-c1aa6ab149dd",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "f8b5c0dd-ec53-4c8b-a06e-26bfb9d05081",
+			"id": "81c433ad-b9fa-4f69-8d8d-80f705e0481d",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "0b7f5083-c926-40d2-8f8b-8af134140a5c",
+			"id": "b5a84da1-4019-4f25-b41c-24e80acaa864",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "69addf98-bc8a-4c8f-8b3a-452477ec0b89",
+			"id": "e4387fd5-853b-4357-bfdf-cd7940438ef4",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2cfbe08f-6fc6-4f32-a72b-37c404ba2cf6",
+			"id": "291c3e34-17b8-4d91-993c-5a7296d20e54",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "dc57a304-4cb1-4433-880a-9f1e3fce6ae6",
+			"id": "6f47fde8-5061-4596-b260-a5880398d78b",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "3ab60dce-b58b-4102-b68a-6c05523d9cf2",
+			"id": "778ed87e-8cb0-4b6f-a07d-3b4a96c6aefb",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "5b52c434-b291-4cc9-8cf7-11c13a78e2d9",
+			"id": "cf661308-e5a8-4619-9fcb-87339e4c4135",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "02a01a74-2d76-4059-a604-11e67024b76b",
+			"id": "50f02914-6d5b-499f-8770-79d21977e77e",
 			"value": "",
 			"type": "string"
 		}
