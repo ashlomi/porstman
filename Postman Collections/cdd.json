@@ -10,7 +10,7 @@
 			"item": [
 				{
 					"name": "Build Notification App1",
-					"_postman_id": "08feaa82-44e0-46d4-bf66-da6e5e4fc9c7",
+					"id": "08feaa82-44e0-46d4-bf66-da6e5e4fc9c7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true,
 						"disableCookies": true,
@@ -58,7 +58,7 @@
 				},
 				{
 					"name": "Build Notification App2",
-					"_postman_id": "6c87d8bc-0d40-4911-8a6e-596e532590ff",
+					"id": "6c87d8bc-0d40-4911-8a6e-596e532590ff",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true,
 						"disableCookies": true,
@@ -106,7 +106,7 @@
 				},
 				{
 					"name": "Build Notification App3",
-					"_postman_id": "e9bf2ca5-c4d3-4c4a-9551-a82505b32672",
+					"id": "e9bf2ca5-c4d3-4c4a-9551-a82505b32672",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true,
 						"disableCookies": true,
@@ -153,14 +153,14 @@
 					]
 				}
 			],
-			"_postman_id": "8b0b1f2a-23e3-4f18-9ae0-b33ee6110f6b"
+			"id": "8b0b1f2a-23e3-4f18-9ae0-b33ee6110f6b"
 		},
 		{
 			"name": "SV Tests",
 			"item": [
 				{
 					"name": "Releases - sv",
-					"_postman_id": "551e1367-c1a0-4ced-98fc-02f560633f4b",
+					"id": "551e1367-c1a0-4ced-98fc-02f560633f4b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -172,14 +172,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "40c4b376-d9a3-4a48-a0a1-771f066ad173"
+			"id": "40c4b376-d9a3-4a48-a0a1-771f066ad173"
 		},
 		{
 			"name": "cddirecto.io",
 			"item": [
 				{
 					"name": "hompage",
-					"_postman_id": "50b813a6-70d6-44b0-b732-c8cb181316aa",
+					"id": "50b813a6-70d6-44b0-b732-c8cb181316aa",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -189,16 +189,28 @@
 						"url": "https://cddirector.io/"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "0f243c06-7974-4c0b-8a33-b5fd4af9c545",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
-			"_postman_id": "72a37202-8d79-4a53-bf07-f5ca09ef088e"
+			"id": "72a37202-8d79-4a53-bf07-f5ca09ef088e"
 		},
 		{
 			"name": "Security",
 			"item": [
 				{
 					"name": "Code Smell mock results  4",
-					"_postman_id": "41fab03d-1de9-4efa-8c44-d48e0f7e5695",
+					"id": "41fab03d-1de9-4efa-8c44-d48e0f7e5695",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -220,7 +232,7 @@
 				},
 				{
 					"name": "HOTSPOT mock results 3",
-					"_postman_id": "ae753edd-2cdc-4bb6-af7f-35fe7145b452",
+					"id": "ae753edd-2cdc-4bb6-af7f-35fe7145b452",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -242,7 +254,7 @@
 				},
 				{
 					"name": "VULNERABILITY mock results 2",
-					"_postman_id": "4c43fb92-93c9-4e44-9224-af94bdc30425",
+					"id": "4c43fb92-93c9-4e44-9224-af94bdc30425",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -263,11 +275,11 @@
 					"response": []
 				}
 			],
-			"_postman_id": "dbb83f57-67cc-47be-8494-262c2d8baa97"
+			"id": "dbb83f57-67cc-47be-8494-262c2d8baa97"
 		},
 		{
 			"name": "PATCH Sync Plugin",
-			"_postman_id": "9e23c56b-e0e6-4eff-bb83-22c13aab7837",
+			"id": "9e23c56b-e0e6-4eff-bb83-22c13aab7837",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -291,7 +303,7 @@
 		},
 		{
 			"name": "geleases",
-			"_postman_id": "485a4e57-7433-452b-aa40-7f9b653f1cae",
+			"id": "485a4e57-7433-452b-aa40-7f9b653f1cae",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -334,14 +346,13 @@
 		},
 		{
 			"name": "DELETE Application",
-			"_postman_id": "b49d1e0d-82dc-490e-b34f-ffd1815162bc",
+			"id": "b49d1e0d-82dc-490e-b34f-ffd1815162bc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		}
@@ -376,103 +387,103 @@
 	],
 	"variable": [
 		{
-			"id": "bdd97d36-2b56-4268-bcf4-6db719b5dcaf",
+			"id": "1bf73e1d-55c9-486f-8cd3-6ad3bdcdad4b",
 			"key": "serverUrl",
 			"value": "http://lvntest002908.bpc.broadcom.net:8080",
 			"type": "string"
 		},
 		{
-			"id": "bcc2b72d-5050-423d-9107-0c5e1c5a324f",
+			"id": "bda3c11e-ec18-4543-8fb6-dcb111efbc20",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "2a58ebf7-9fa9-493d-936f-828d01842d71",
+			"id": "21471bc6-0d41-4534-a716-56b914b73dfa",
 			"key": "AppName1",
 			"value": "GB-MAINSRVR",
 			"type": "string"
 		},
 		{
-			"id": "55539e94-1800-48f0-9196-0ae68bd16ad3",
+			"id": "19e5f086-a10b-49cf-b85f-3f4b2f0c33cf",
 			"key": "AppVersion1",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "db4213b4-1391-45a8-b6f5-f1620751555d",
+			"id": "22df1dbf-3868-493a-870b-9e103c38d185",
 			"key": "BuildNumb1",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a4c45120-c44a-4852-9bba-b2da00da5710",
+			"id": "a02b7cd4-cf6a-4806-b8ec-e5d9e67367ef",
 			"key": "AppName2",
 			"value": "GB-IAM",
 			"type": "string"
 		},
 		{
-			"id": "0d749fd1-a885-4a1c-8d25-42e5bb837b62",
+			"id": "c899f7f2-528a-4c26-94ee-2a0da172ae8f",
 			"key": "AppVersion2",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "500e2153-155c-46a9-896f-4c754eed9412",
+			"id": "f5c8bc08-c36b-4e9c-8a47-d0b7359a0cb8",
 			"key": "BuildNumb2",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "69e5970e-4ba1-4183-b1fa-43d060df40e7",
+			"id": "0c36d3cf-4e31-4a35-ab19-e5eadea8dd86",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "224e4f4d-e9c0-417c-9dd9-85ccdda7e1ac",
+			"id": "f8b5c0dd-ec53-4c8b-a06e-26bfb9d05081",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "8c955241-6415-4618-8ea1-2d8ff4acf053",
+			"id": "0b7f5083-c926-40d2-8f8b-8af134140a5c",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f2bb0695-44fe-4aac-aa76-e7c2add632ee",
+			"id": "69addf98-bc8a-4c8f-8b3a-452477ec0b89",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "536962ce-6a7e-4adb-9e55-b737cc857f3b",
+			"id": "2cfbe08f-6fc6-4f32-a72b-37c404ba2cf6",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "e8a85db9-64a8-4c2b-8b1e-22a66b7f8c32",
+			"id": "dc57a304-4cb1-4433-880a-9f1e3fce6ae6",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "9312d7af-416c-42b6-85d9-957fab407ed0",
+			"id": "3ab60dce-b58b-4102-b68a-6c05523d9cf2",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "28a9f31d-8bba-49cb-a363-b2b320c2a987",
+			"id": "5b52c434-b291-4cc9-8cf7-11c13a78e2d9",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "b84c199e-9f65-4ecd-9c47-41c2ad238356",
+			"id": "02a01a74-2d76-4059-a604-11e67024b76b",
 			"value": "",
 			"type": "string"
 		}
