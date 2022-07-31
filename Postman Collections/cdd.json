@@ -391,14 +391,14 @@
 			"auth": {
 				"type": "bearer",
 				"bearer": {
-					"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiNTZkYzBkZmMtMjllYi00NWU4LWI5OTItNWFhNzcxZjZlMzE4IiwiZXhwIjoxNjMyMjk5ODI3fQ.OIGq2s1SpvMBv0tYDylJT1D4qWKnnlJGnQxBLjl17gIy6Z8KJGDggxjLZl-Nm6SS1pSnepl80y0UTsXD_qxsjA"
+					"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiMzRlOTZhMzYtYTY2My00MzYxLWJhZjItMWI1NGVjNmY5ZGE4IiwiZXhwIjoxNjY3MDMwMDc5fQ.lPlOe8oPaLCEtkGaAbV8E7c8k_Nqy-tQA04nUwCFJTWJtHjY1QcLldwTBXbMli2V9uzmE2sXLkAKgcQtD7x4ow"
 				}
 			},
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "83ce2d10-c49b-4a7e-a41e-7f8ecf9a0ac6",
+						"id": "fca71338-6e20-4bd9-9bc1-0357b24cacea",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -408,7 +408,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "8859beb6-b9ba-4959-9d42-5bff3536c1cf",
+						"id": "c285a5dd-b345-4730-8731-8e704e3a12ce",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -527,103 +527,103 @@
 	],
 	"variable": [
 		{
-			"id": "bc273b24-0ef5-4641-ad32-a43c3fb7a09d",
+			"id": "357f25de-f2bb-4bec-9502-ae43456deccb",
 			"key": "serverUrl",
 			"value": "http://lvntest002908.bpc.broadcom.net:8080",
 			"type": "string"
 		},
 		{
-			"id": "eb793f57-37c1-4906-98fc-260c4739dac2",
+			"id": "9a92ef33-fd3d-495b-9a23-2881d08aa557",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "a666fce0-836a-4368-b63c-8780470c4753",
+			"id": "d58201ef-bf75-44a3-bc7c-5e639614a89f",
 			"key": "AppName1",
 			"value": "GB-MAINSRVR",
 			"type": "string"
 		},
 		{
-			"id": "23390db1-7861-484a-a4db-3a51aa2f8dd7",
+			"id": "64680c4a-ecf1-4389-90aa-106d636e3db3",
 			"key": "AppVersion1",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "68422cbf-197b-40de-b1e1-e0af13dfdfb1",
+			"id": "f200eb0d-d612-4cc9-85e2-4c1289c87f12",
 			"key": "BuildNumb1",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5d9c97c2-64e4-462d-a81c-4cceea8e0b21",
+			"id": "347fd8cc-59d2-4f43-9a44-b58019a22b2a",
 			"key": "AppName2",
 			"value": "GB-IAM",
 			"type": "string"
 		},
 		{
-			"id": "419a2aca-eb2d-4b1c-adb4-6621dbc894dc",
+			"id": "e368307f-264f-4b93-8736-02d313169efe",
 			"key": "AppVersion2",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "114579a0-98a1-46ff-867a-cc9debb8f825",
+			"id": "5b87dee5-41ae-4ec0-ac16-a3c0433efba3",
 			"key": "BuildNumb2",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "eb7b8a4c-16b2-48e2-b85d-9aca58a7cf12",
+			"id": "d2cca744-eea3-4883-aa3a-7bd830a55703",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "4eafcb0a-c908-44f0-807b-b71eedcce8e3",
+			"id": "25ecf056-080a-4c4a-9012-1b5b3c7cb263",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "5ce26643-dbbc-4833-abab-cf190a560111",
+			"id": "c6bab615-12e1-4e08-bbf3-569666442116",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ad72f2d4-64d9-4ba4-9497-213f30114adc",
+			"id": "447e249d-22bc-40e4-9e69-eadc4f24d04f",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "61236e9a-7b52-489e-931d-2e7cdfa44215",
+			"id": "5fa7d35d-0a2d-4165-b77b-d3cb68fda785",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "95c1f7c4-0833-4f27-94d8-b9529552505a",
+			"id": "25c995aa-f4d2-4b95-be33-821d15b703a6",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "5eb6ea0e-98f5-4f7d-ad5b-5b87d3d638fe",
+			"id": "0bcbb556-1953-44fa-bc9c-39322137bbee",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "9573b97b-a2f6-4c59-b0e5-8af5de2b11aa",
+			"id": "06b6f5a5-1fe8-4ab1-899f-ad9124d2ce66",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "f186596d-1371-4b9b-870a-0a4c4da0f780",
+			"id": "bdfaeb74-4dd4-476e-abcf-3e5b4eb4378d",
 			"value": "",
 			"type": "string"
 		}
