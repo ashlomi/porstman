@@ -387,7 +387,35 @@
 					"response": []
 				}
 			],
-			"id": "cace7c2e-c9e2-4157-b4e1-f8c8b324152a"
+			"id": "cace7c2e-c9e2-4157-b4e1-f8c8b324152a",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiNTZkYzBkZmMtMjllYi00NWU4LWI5OTItNWFhNzcxZjZlMzE4IiwiZXhwIjoxNjMyMjk5ODI3fQ.OIGq2s1SpvMBv0tYDylJT1D4qWKnnlJGnQxBLjl17gIy6Z8KJGDggxjLZl-Nm6SS1pSnepl80y0UTsXD_qxsjA"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "83ce2d10-c49b-4a7e-a41e-7f8ecf9a0ac6",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "8859beb6-b9ba-4959-9d42-5bff3536c1cf",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "PATCH Sync Plugin",
@@ -499,103 +527,103 @@
 	],
 	"variable": [
 		{
-			"id": "a292a33c-bc0a-48e6-9172-67f33470ad4d",
+			"id": "bc273b24-0ef5-4641-ad32-a43c3fb7a09d",
 			"key": "serverUrl",
 			"value": "http://lvntest002908.bpc.broadcom.net:8080",
 			"type": "string"
 		},
 		{
-			"id": "9a28fd42-b9be-424b-96e2-0f584f44be7b",
+			"id": "eb793f57-37c1-4906-98fc-260c4739dac2",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "e869feda-1359-4d3e-ba82-79a4803336d4",
+			"id": "a666fce0-836a-4368-b63c-8780470c4753",
 			"key": "AppName1",
 			"value": "GB-MAINSRVR",
 			"type": "string"
 		},
 		{
-			"id": "fce1d811-aa7e-44bf-9f45-dec9b3bb0141",
+			"id": "23390db1-7861-484a-a4db-3a51aa2f8dd7",
 			"key": "AppVersion1",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "96833917-3431-48b0-bd6f-3b1111220a34",
+			"id": "68422cbf-197b-40de-b1e1-e0af13dfdfb1",
 			"key": "BuildNumb1",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c036b3ef-3d65-4631-828e-a32611fdfc0c",
+			"id": "5d9c97c2-64e4-462d-a81c-4cceea8e0b21",
 			"key": "AppName2",
 			"value": "GB-IAM",
 			"type": "string"
 		},
 		{
-			"id": "a994de07-03ec-48a2-b8d5-fd9241999e9b",
+			"id": "419a2aca-eb2d-4b1c-adb4-6621dbc894dc",
 			"key": "AppVersion2",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "e57eb7ca-66ef-44d2-9d65-015490da64e4",
+			"id": "114579a0-98a1-46ff-867a-cc9debb8f825",
 			"key": "BuildNumb2",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "25cfef0b-fd24-441c-b2fd-cd9ab213b77a",
+			"id": "eb7b8a4c-16b2-48e2-b85d-9aca58a7cf12",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "7f392afc-d5fa-4f94-b617-2faa04ff8359",
+			"id": "4eafcb0a-c908-44f0-807b-b71eedcce8e3",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "823e62da-40b5-491c-a2c4-cb7d5b9d9074",
+			"id": "5ce26643-dbbc-4833-abab-cf190a560111",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8079b993-4fa7-4904-84f3-a8c848a1e3fa",
+			"id": "ad72f2d4-64d9-4ba4-9497-213f30114adc",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "dd54e6cb-5f20-4e57-8e40-9ec377254a83",
+			"id": "61236e9a-7b52-489e-931d-2e7cdfa44215",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "f1851c87-1d5d-4c94-ad8e-4c35f9c81709",
+			"id": "95c1f7c4-0833-4f27-94d8-b9529552505a",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "96ab85a3-561b-4cc3-b233-7799df84a93b",
+			"id": "5eb6ea0e-98f5-4f7d-ad5b-5b87d3d638fe",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "2c00d109-6ed7-4534-9897-d9b63ce29a3b",
+			"id": "9573b97b-a2f6-4c59-b0e5-8af5de2b11aa",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "07392751-80ff-4c75-8fc1-65c8916a6db0",
+			"id": "f186596d-1371-4b9b-870a-0a4c4da0f780",
 			"value": "",
 			"type": "string"
 		}
