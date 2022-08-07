@@ -500,14 +500,14 @@
 	"auth": {
 		"type": "bearer",
 		"bearer": {
-			"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiMWFmMmQ0ODItZGEzNi00ODU0LTgwMzMtNDZlMmMzOTczMzAwIiwiZXhwIjoxNjYwNDc5ODc4fQ.K_DVGtommXEEa_LCnv7X2JPjj24oKLXGfDtT-ea7NxMHaJNDCliHr0dP9haUSKxoydWEZwYhuG_K7ARBj3EZTQ"
+			"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiNWQxMjlmNzUtNzViMi00MTAxLWJmMWMtNzM2N2YxMmEwZTcxIiwiZXhwIjoxNjY3MjIxNDU2fQ.Q9uVNiX4KGfxqB21wTUiBvw3JKuNVg6RJQ7SeF6Mpbi92LzHP9TMxseTIc7WgkYDbJ0nY0lUXbYMNw5eIzowzg"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "c86e3c56-be4d-4d57-810b-bc544ba561fe",
+				"id": "adc2cb95-19cd-4691-b6f1-20bc61446831",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -517,7 +517,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "12a42f69-b668-48f0-bfd7-741d9d8be012",
+				"id": "85ea9a45-5761-42e6-a980-39385e639510",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -527,103 +527,103 @@
 	],
 	"variable": [
 		{
-			"id": "d14b3d22-f453-4790-9370-f6c5d79cf3e8",
+			"id": "09218c4f-d4b5-4f36-b3b2-64cbfd9f3c50",
 			"key": "serverUrl",
 			"value": "http://10.252.18.164:8080",
 			"type": "string"
 		},
 		{
-			"id": "4b4cdcc9-0038-49b8-a6a0-01d492aa92b5",
+			"id": "7fff7a61-e529-4b46-800c-253a40c7e8e3",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "fbb942d4-855b-410d-aa5e-479e720f38b8",
+			"id": "67c29549-7383-4f4d-bbd6-85e91e0a9655",
 			"key": "AppName1",
 			"value": "OB-Auth-svc",
 			"type": "string"
 		},
 		{
-			"id": "ff6a7ade-bda9-491e-a6fd-8fc56032b83f",
+			"id": "aef94d31-a053-4cb6-9cb7-d95987328d18",
 			"key": "AppVersion1",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "262b7c60-5f8e-4ba8-8da0-05fa5bcf7a96",
+			"id": "73b5b4b6-e770-4872-b575-aa24df47c393",
 			"key": "BuildNumb1",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "7c21b91b-1da3-4aa4-a53d-4d1775cc294d",
+			"id": "3d0885b3-b877-4961-8a3c-5b9a08352f32",
 			"key": "AppName2",
 			"value": "OB-UI-svc",
 			"type": "string"
 		},
 		{
-			"id": "0575fd47-309a-488d-9a11-65d27486d0d1",
+			"id": "c9c7c049-cde4-43a3-8bfb-7916b76cfa91",
 			"key": "AppVersion2",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "3870656d-af5e-428f-87f1-8dd514f6ff4e",
+			"id": "7bc9a175-7296-4775-87ff-db4b4065bc9f",
 			"key": "BuildNumb2",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "cb126ed7-6b5f-43ab-bcc8-d7e12656358a",
+			"id": "1c99c2b9-88d9-4d16-a23c-678b60259ac5",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "f4139956-0092-41e0-b239-2576879d2e8c",
+			"id": "4b1aee3b-5a76-4eb1-826a-298a24a71ba9",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "2509cd93-502c-4224-acde-5f0e00f21f2e",
+			"id": "8aed43c3-7bf3-4c22-9ca6-7e85d1712124",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1f75307f-d289-448a-8441-c1b11142fb3f",
+			"id": "dda40084-c12e-42d1-aa48-82e34945ef56",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "9bfa113c-6843-47f2-b785-085dd86240af",
+			"id": "237c84ed-a8bc-43bf-98da-b657eeb4bc01",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "33c68e2e-451f-47d2-899b-130731986526",
+			"id": "53540c4d-35bf-4ef6-8d38-fd51f86a81af",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "5bef9190-1b35-4f3f-8fd5-17498adab86a",
+			"id": "f5f82dfb-bf89-45cb-adad-b2fb43d10c0a",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "9605bc02-0646-46d7-b15a-4d072dc11184",
+			"id": "d96f1992-63c9-4c2b-89ab-64dacf79a4df",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "e6aadc51-0834-46aa-96a1-c00665ed90da",
+			"id": "25baea3b-2faf-439c-8664-2d0682fb0d36",
 			"key": "AppSource",
 			"value": "Local",
 			"type": "string"
