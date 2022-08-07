@@ -21,7 +21,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"applicationName\": \"{{AppName1}}\",\r\n    \"applicationVersionName\": \"{{AppVersion1}}\",\r\n      \"applicationSourceName\": \"{{applicationSourceName}}\",\r\n    \"releaseTokens\": [\r\n        {\r\n            \"name\": \"{{tokenName}}\",\r\n            \"value\": \"{{GBenvironment}}\"\r\n        }\r\n    ],\r\n    \"applicationVersionBuildNumber\": \"{{BuildNumb1}}\"\r\n}",
+							"raw": "{\r\n    \"applicationName\": \"{{AppName1}}\",\r\n    \"applicationVersionName\": \"{{AppVersion1}}\",\r\n      \"applicationSourceName\": \"{{AppSource}}\",\r\n    \"releaseTokens\": [\r\n        {\r\n            \"name\": \"{{tokenName}}\",\r\n            \"value\": \"{{GBenvironment}}\"\r\n        }\r\n    ],\r\n    \"applicationVersionBuildNumber\": \"{{BuildNumb1}}\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -527,103 +527,103 @@
 	],
 	"variable": [
 		{
-			"id": "fbdd3354-2c2b-44bb-ae14-b040a731f39e",
+			"id": "85c5af4b-9bd0-4853-b582-cc7f22914bc3",
 			"key": "serverUrl",
 			"value": "http://lvntest002908.bpc.broadcom.net:8080",
 			"type": "string"
 		},
 		{
-			"id": "4f9d8cc0-3eec-437a-af8b-e5da87f4e0d4",
+			"id": "e81a83a8-4a69-4e6b-8f85-3004111333b2",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "6307c6cf-e37b-4f0d-89ec-789526d91946",
+			"id": "2ef0cbf9-7a12-47d8-b50e-224273b8b475",
 			"key": "AppName1",
 			"value": "GB-MAINSRVR",
 			"type": "string"
 		},
 		{
-			"id": "c2e8f3b8-3daa-40ae-9a66-9ad13b35b6b1",
+			"id": "a58bce05-6641-4a45-979b-c7977d3d7014",
 			"key": "AppVersion1",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "a2feab78-019e-49f6-96f9-928c00b18b9c",
+			"id": "23d32ff9-c1f2-4ce1-9882-8a873fa2a8c4",
 			"key": "BuildNumb1",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b3ad301e-77b2-4be7-af89-8c1a1cdf3976",
+			"id": "85922fd7-2db3-4523-bc94-7378ceac8909",
 			"key": "AppName2",
 			"value": "GB-IAM",
 			"type": "string"
 		},
 		{
-			"id": "2ecb8168-f594-4774-8dca-fc44845c68ce",
+			"id": "4a7206c5-7273-4629-8903-9026ffa3ef74",
 			"key": "AppVersion2",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "fc55e5f3-e2e9-4347-8b94-7d9e77d7bab4",
+			"id": "236e4a0c-976a-4aad-b2a3-48c9f1fa6d96",
 			"key": "BuildNumb2",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d77e1e2a-b894-4d79-b268-9687832ee15f",
+			"id": "54be4880-948d-4493-bd8a-13aafb660fce",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "d4378c0e-60b9-4db9-834c-1c01ed6410b1",
+			"id": "8c687bf4-38b4-419d-9ab3-5eac3cada067",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "607aad64-8d3b-4c84-988b-920564043ecb",
+			"id": "14adc2e0-5795-46e4-8640-f8de7d93efc7",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e00dc140-edf2-4707-870a-a6d6450f16a4",
+			"id": "72e641f8-d41a-4b23-bf93-94f7ca3465dd",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "46916571-f342-4716-a276-a7908039f0c1",
+			"id": "4b18f992-0aa1-4efd-8993-b6d8fa31602e",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "a60e0856-7479-41e4-9b34-72307f00b923",
+			"id": "213ed5c7-dde1-4ce1-9609-4472d2502316",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "5ce3156c-f790-431c-bbac-d8012d7b9107",
+			"id": "e4a1fcf3-98a1-4695-9fb6-f2e1eb6f6ed0",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "e2f25ea4-3711-4d81-94ca-d9f95e813c5a",
+			"id": "1a61e768-e345-40d8-979f-adb462c30250",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "cd183ca0-193a-4154-ae2d-51250ebde866",
+			"id": "1e65df18-f0d2-4fee-b556-01e12b5ec965",
 			"value": "",
 			"type": "string"
 		}
