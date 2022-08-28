@@ -117,7 +117,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"applicationName\": \"{{AppName3}}\",\r\n   \"applicationVersionName\": \"{{AppVersion3}}\",\r\n   \"applicationSourceName\": \"{{applicationSourceName}}\", \r\n  \"releaseTokens\": [\r\n    {\r\n      \"name\": \"{{tokenName}}\",\r\n      \"value\": \"{{GBenvironment}}\"\r\n    }\r\n  ],\r\n  \"applicationVersionBuildNumber\": \"{{BuildNumb3}}\"\r\n}",
+							"raw": "{\r\n  \"applicationName\": \"{{AppName3}}\",\r\n   \"applicationVersionName\": \"{{AppVersion3}}\",\r\n   \"applicationSourceName\": \"{{AppSource}}\", \r\n  \"releaseTokens\": [\r\n    {\r\n      \"name\": \"{{tokenName}}\",\r\n      \"value\": \"{{GBenvironment}}\"\r\n    }\r\n  ],\r\n  \"applicationVersionBuildNumber\": \"{{BuildNumb3}}\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -527,103 +527,103 @@
 	],
 	"variable": [
 		{
-			"id": "5c78cc18-466e-4dd2-972e-7a4136d00850",
+			"id": "cca352ee-c5f2-447e-bf16-dc541e238b2d",
 			"key": "serverUrl",
 			"value": "http://10.252.18.164:8080",
 			"type": "string"
 		},
 		{
-			"id": "a950abd2-0f1e-41e7-a2bf-f8d0d9560def",
+			"id": "80eee1d2-fba1-44b8-ad7e-ee4e16e64e85",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "eb24b0bc-1884-4651-8de4-024b2df6a954",
+			"id": "e4f6e042-8b3b-4b9e-85d6-bdba1aba0da5",
 			"key": "AppName1",
 			"value": "OB-Auth-svc",
 			"type": "string"
 		},
 		{
-			"id": "373b7b10-1704-47de-94ae-e08669ca9431",
+			"id": "7b6e0c20-14e9-4f24-b046-f5e53d57713e",
 			"key": "AppVersion1",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "a27437cb-c11c-413c-8edc-dad8126901b1",
+			"id": "d8569f3e-f7c9-4f73-b8b9-42448f0494c1",
 			"key": "BuildNumb1",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "45155b82-c745-4450-b985-20aa6b64c0a8",
+			"id": "f2c3f36c-e693-454f-a80e-e6b77cf789e6",
 			"key": "AppName2",
 			"value": "OB-UI-svc",
 			"type": "string"
 		},
 		{
-			"id": "27bc6a06-e963-4865-a789-af48bd7bb126",
+			"id": "b7ac2dc9-5382-47d0-b73e-b9c7d57d0c4f",
 			"key": "AppVersion2",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "ea0e9bcd-c6b8-453f-9b70-690da1438d8e",
+			"id": "68ec4f7a-bc69-4b40-9d59-cbe3dc7eb6eb",
 			"key": "BuildNumb2",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "1509e14b-fe4e-4a34-8ecb-135f52f8969a",
+			"id": "01ab8555-075b-4671-a764-5211124d90e7",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "21161e04-f251-4f26-8857-4c74f0c28e37",
+			"id": "14b496e5-4ccf-4ba5-80ec-75d64ef44749",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "678a0f29-a864-4089-ac59-d7bd55fcd1cd",
+			"id": "3354763e-05fa-4804-894e-7fc55a520038",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b0e3d782-aec6-49b5-a4ca-58e7a340f8e2",
+			"id": "e0ff7880-a9d5-4769-a316-13026d3b81fa",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1ad9c856-5eb1-4431-b441-30728f83362a",
+			"id": "191b08f3-65f1-4fb0-a28e-e05469f41896",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "6e97d6f2-05ce-4d8f-ac84-09b6a05c5119",
+			"id": "56a03b8d-e7b0-4e67-b0f8-78c39b0f5755",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "a384c562-338f-4fd6-91f9-2cd0a6ad17d8",
+			"id": "c12c03ee-7821-4539-96fe-43be903ae8c1",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "a3e7329a-cae0-4802-9f4d-c2c36d3f8c52",
+			"id": "3fb54338-1599-4729-b8c0-a30940786e00",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "0f233097-c664-43c4-ac00-a791ff9c727f",
+			"id": "45b709d3-d9f0-4885-af5b-d8405abc2fb8",
 			"key": "AppSource",
 			"value": "Local",
 			"type": "string"
