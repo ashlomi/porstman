@@ -515,6 +515,12 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiMmM0OGFmNTAtMWQ4OS00ZWMzLWFiNmEtNWFiZmNjMmUxYTJhIiwiZXhwIjoxNjY2MDg4NTEzfQ.AJ5OYWrfwfs3vftgY3seTKytve-MC52wdJmqtV27CH7Lh-4LZG5XkHVtkl1GddLO_YwoMeDVJbwJZ99nb3LlPA"
+					}
+				},
 				"method": "PATCH",
 				"header": [],
 				"body": {
@@ -527,10 +533,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{serverUrl}}/cdd/administration/{{tenantID}}/v1/saml-domains?tenant_id={{tenantID}}",
+					"raw": "http://10.252.18.164:8080/cdd/administration/{{tenantID}}/v1/saml-domains?tenant_id={{tenantID}}",
+					"protocol": "http",
 					"host": [
-						"{{serverUrl}}"
+						"10",
+						"252",
+						"18",
+						"164"
 					],
+					"port": "8080",
 					"path": [
 						"cdd",
 						"administration",
@@ -579,103 +590,103 @@
 	],
 	"variable": [
 		{
-			"id": "90523b19-948f-4d68-b5cd-b43d526a941a",
+			"id": "bc2dd853-60ff-4ea3-a594-b5b1c55c4f49",
 			"key": "serverUrl",
 			"value": "http://10.252.18.164:8080",
 			"type": "string"
 		},
 		{
-			"id": "a6ec4e74-4f5f-4acc-99de-c9805676d09f",
+			"id": "b0887e5d-d9b2-492f-9e90-351caabf23aa",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "45174584-4b30-4586-9aa1-c47200d65642",
+			"id": "a9013455-6653-44cc-9bf8-60a52b11b779",
 			"key": "AppName1",
 			"value": "OB-Auth-svc",
 			"type": "string"
 		},
 		{
-			"id": "4294240e-b535-47b6-a958-7e03fe8d5507",
+			"id": "47fefc83-cb13-452f-be3e-dc15946f104d",
 			"key": "AppVersion1",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "25b73134-517d-414b-a94f-5e5252d6c9ec",
+			"id": "535ac4b2-97e7-4c72-9339-cfa00a857afc",
 			"key": "BuildNumb1",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "39ada9f9-4f15-44e9-8c28-0f3c650092b0",
+			"id": "3959b421-3689-4863-9544-66e07de28730",
 			"key": "AppName2",
 			"value": "OB-UI-svc",
 			"type": "string"
 		},
 		{
-			"id": "24c7069f-c910-4e84-9e9a-54a29090ab6f",
+			"id": "1d59192f-2286-488a-8ab9-b116a75de7d5",
 			"key": "AppVersion2",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "ed7078c9-a8b6-4d06-aadf-613fdfb12373",
+			"id": "1ce120fd-cb37-4cad-b922-b64e17c1d58a",
 			"key": "BuildNumb2",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "41caab26-3863-49bb-8bbe-755ac02436ca",
+			"id": "856e41cb-d95e-4e81-8204-f88a4c5bdd98",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "c2179999-3967-4719-8059-3b0ccf87e456",
+			"id": "824dae26-0b0a-458d-be30-5554929ff00b",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "894c595d-c7f6-4975-aa2f-187ba7a2051f",
+			"id": "bfdeeb65-e9aa-42a5-a966-cb02cd697ea3",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "000687b2-ebcc-46cc-98ff-4403d4263ae9",
+			"id": "8043abb1-f39d-416b-99c4-775b70435b70",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5bb411e7-fa3f-4f5c-bba9-8719b7997de7",
+			"id": "1dacdf81-b88b-400d-9a87-8ef8a7e016e1",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "c0cf8908-466d-44c4-a5a1-52e0fe858c20",
+			"id": "c79e281a-fe2d-4a46-8442-d16c92f96a8f",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "f84fda8b-6657-4b19-a431-ec381e177435",
+			"id": "27838c96-82de-41a0-95f0-b5e7b77d0224",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "c3e08d77-de3a-4af5-a1e1-5ea51c17dc1a",
+			"id": "4984d260-1046-47cb-8652-88d988b781fd",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "72c43d35-037f-40d0-8e60-1b6b9e5178a3",
+			"id": "6fea0d21-915c-4515-be26-805cd761e8ac",
 			"key": "AppSource",
 			"value": "Local",
 			"type": "string"
