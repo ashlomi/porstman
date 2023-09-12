@@ -57,6 +57,54 @@
 					]
 				},
 				{
+					"name": "Build Notification with DSL",
+					"id": "0410cf98-a6be-4e89-a066-8f1105d1582c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disableCookies": true,
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"applicationName\": \"{{AppName1}}\",\r\n    \"applicationVersionName\": \"{{AppVersion1}}\",\r\n      \"applicationSourceName\": \"{{AppSource}}\",\r\n    \"releaseTokens\": [\r\n        {\r\n            \"name\": \"{{tokenName}}\",\r\n            \"value\": \"{{GBenvironment}}\"\r\n        }\r\n    ],\r\n    \"applicationVersionBuildNumber\": \"{{BuildNumb1}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{serverUrl}}/cdd/design/{{tenantID}}/v1/applications/application-versions/application-version-builds"
+					},
+					"response": [
+						{
+							"id": "4d1b22da-687a-4ed2-ad5a-28fb5d46e3c1",
+							"name": "Build Notification App1",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"applicationName\": \"{{AppName1}}\",\r\n    \"applicationVersionName\": \"{{AppVersion1}}\",\r\n    \"releaseTokens\": [\r\n        {\r\n            \"name\": \"{{tokenName}}\",\r\n            \"value\": \"{{GBenvironment}}\"\r\n        }\r\n    ],\r\n    \"applicationVersionBuildNumber\": \"{{BuildNumb1}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{serverUrl}}/cdd/design/{{tenantID}}/v1/applications/application-versions/application-version-builds"
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"responseTime": null,
+							"body": null
+						}
+					]
+				},
+				{
 					"name": "Build Notification App2",
 					"id": "6c87d8bc-0d40-4911-8a6e-596e532590ff",
 					"protocolProfileBehavior": {
@@ -743,103 +791,103 @@
 	],
 	"variable": [
 		{
-			"id": "ff47c621-334f-4018-83d5-3c26b322e0da",
+			"id": "c5552273-ef60-40ee-b7cc-94c09d01236f",
 			"key": "serverUrl",
 			"value": "http://10.252.18.164:8080",
 			"type": "string"
 		},
 		{
-			"id": "1e213ff2-1af4-42af-9eac-ce34dfdd8d5b",
+			"id": "7d1641f9-d776-4e3d-83aa-b5448761d888",
 			"key": "tenantID",
 			"value": "00000000-0000-0000-0000-000000000000",
 			"type": "string"
 		},
 		{
-			"id": "c8115c4b-0ec8-4f02-bcdd-37d13396a67b",
+			"id": "c5a77310-4f08-4c98-8c88-db691da910e0",
 			"key": "AppName1",
 			"value": "OB-Auth-svc",
 			"type": "string"
 		},
 		{
-			"id": "344c245a-0650-4bde-803f-a27e772fa46b",
+			"id": "ef23189a-e18c-4b90-a24a-892467ade352",
 			"key": "AppVersion1",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "9cccbbd1-bc7d-4258-9052-610a9008dff4",
+			"id": "12352cc8-1a1a-42fb-9381-807331515321",
 			"key": "BuildNumb1",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "4ebcde81-8d93-42a7-b29f-165af5cacde7",
+			"id": "4ba0916d-1c3c-49f7-8d98-54fafd1c9c8d",
 			"key": "AppName2",
 			"value": "OB-UI-svc",
 			"type": "string"
 		},
 		{
-			"id": "19e81ec6-45c7-47b9-bb44-193767449666",
+			"id": "8cb09e09-4f34-422f-9374-9a5ebc1126c9",
 			"key": "AppVersion2",
 			"value": "master",
 			"type": "string"
 		},
 		{
-			"id": "48f0a81d-cb3e-464c-af1f-6182582ccee7",
+			"id": "d82c49ca-d65b-447a-9f73-2d63432d2dfe",
 			"key": "BuildNumb2",
 			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "129f5446-23df-4293-93fc-55a2f505b832",
+			"id": "f0a8e486-0eb7-44cb-b4f0-8eafe7949310",
 			"key": "AppName3",
 			"value": "GB-DBSRVR",
 			"type": "string"
 		},
 		{
-			"id": "2d41c9bd-ca13-4406-babd-11f752610a04",
+			"id": "29a369d9-73cf-4b9f-a58a-ade9cc475fe6",
 			"key": "AppVersion3",
 			"value": "FY22Q3",
 			"type": "string"
 		},
 		{
-			"id": "d3fe6246-9184-4288-9f73-b0d812166cb5",
+			"id": "0a3fb7a5-b292-411d-9859-e45023bb5b1a",
 			"key": "BuildNumb3",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "38ad2b57-55cb-4c84-b13a-1ccab040a81b",
+			"id": "9331ca25-7db6-4768-8868-c61a9b4b433b",
 			"key": "GBenvironment",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "548445c9-5800-4a83-aadd-8346160aef1c",
+			"id": "a4e618d7-2249-4244-a5e1-d2d62101cbb0",
 			"key": "Green",
 			"value": "GB-GREEN-PROD",
 			"type": "string"
 		},
 		{
-			"id": "fd1880a4-ef7b-499c-ab7b-136c3fe53918",
+			"id": "71835a2f-40d0-4285-b85f-0c3ab6bda460",
 			"key": "Blue",
 			"value": "GB-BLUE-PROD",
 			"type": "string"
 		},
 		{
-			"id": "ccb9aed9-10c5-43c9-8618-fa55ccd944eb",
+			"id": "7b509f7c-1537-4cb5-ad4d-610398122551",
 			"key": "tokenName",
 			"value": "GreenBlueSelector",
 			"type": "string"
 		},
 		{
-			"id": "be312532-5f54-4204-a74e-269c174a4fd2",
+			"id": "4912fc92-10cc-451c-affa-09d9a7bcdf43",
 			"key": "pluginServerUrl",
 			"value": "http://10.252.18.205:8080",
 			"type": "string"
 		},
 		{
-			"id": "6e97a1c6-74e4-4ef3-9394-02fc49e27389",
+			"id": "b897a7d3-e9ce-4743-a687-83216a7e3d4c",
 			"key": "AppSource",
 			"value": "Local",
 			"type": "string"
