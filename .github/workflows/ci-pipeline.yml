@@ -1,5 +1,4 @@
-name: Trigger Ansible Tower Job
-
+name: Run Build
 on:
   push:
     branches:
@@ -23,6 +22,6 @@ jobs:
             -H "Content-Type: application/json" \
             -d '{
                   "applicationName": "APP 1",
-                  "applicationVersionBuildNumber": "2",
+                  "applicationVersionBuildNumber": "$GITHUB_RUN_ID",
                   "applicationVersionName": "master"
                 }'
