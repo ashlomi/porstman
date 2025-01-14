@@ -13,16 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Trigger Ansible Tower Job
+      - name: Send Build Notification to CDD
         env:
-          TOWER_API_URL: ${{ secrets.TOWER_API_URL }}
-          TOWER_API_TOKEN: ${{ secrets.ANSIBLE_TOWER_API_TOKEN }}
+        
+          CDDIRECTOR_IO_BASE: ${{ secrets.CDDIRECTOR_IO_BASE }}
         run: |
-          curl -X POST "$TOWER_API_URL/api/v2/job_templates/18/launch/" \
-            -H "Authorization: Bearer $TOWER_API_TOKEN" \
+          curl -X POST "https://cddirector.io/cdd/design/dd956bb5-1be0-4855-8606-c515c7926e0c/v1/applications/application-versions/application-version-builds" \
+            -H "Authorization: Bearer $CDDIRECTOR_IO_BASE" \
             -H "Content-Type: application/json" \
             -d '{
-                "extra_vars": {
-                "pauseInSec": "15"
-               }
-            }'
+                  "applicationName": "APP 1",
+                  "applicationVersionBuildNumber": "2",
+                  "applicationVersionName": "master"
+                }'
