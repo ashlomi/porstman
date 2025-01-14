@@ -1,0 +1,28 @@
+name: Trigger Ansible Tower Job
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-tower-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Trigger Ansible Tower Job
+        env:
+          TOWER_API_URL: ${{ secrets.TOWER_API_URL }}
+          TOWER_API_TOKEN: ${{ secrets.ANSIBLE_TOWER_API_TOKEN }}
+        run: |
+          curl -X POST "$TOWER_API_URL/api/v2/job_templates/YOUR_JOB_TEMPLATE_ID/launch/" \
+            -H "Authorization: Bearer $TOWER_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "extra_vars": {
+                "example_var": "value"
+              }
+            }'
