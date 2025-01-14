@@ -17,13 +17,14 @@ jobs:
         env:
         
           CDDIRECTOR_IO_BASE: ${{ secrets.CDDIRECTOR_IO_BASE }}
+          BUILD_NUMBER: ${{GITHUB_RUN_ID}}
+
         run: |
-          BUILD_NUMBER=${GITHUB_RUN_ID}
           curl -X POST "https://cddirector.io/cdd/design/dd956bb5-1be0-4855-8606-c515c7926e0c/v1/applications/application-versions/application-version-builds" \
             -H "Authorization: Bearer $CDDIRECTOR_IO_BASE" \
             -H "Content-Type: application/json" \
             -d '{
                   "applicationName": "APP 1",
-                  "applicationVersionBuildNumber": "${BUILD_NUMBER}",
+                  "applicationVersionBuildNumber": "$BUILD_NUMBER",
                   "applicationVersionName": "master"
                 }'
